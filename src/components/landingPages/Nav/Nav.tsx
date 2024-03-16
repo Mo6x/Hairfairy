@@ -27,9 +27,8 @@ const Nav: React.FC = () => {
           <Link to="/" className={styles.linklist}>Home</Link>
           <Link to="/shop" className={styles.linklist}>Shop</Link>
           <Link to="/about" className={styles.linklist}>About</Link>
-          <Link to="/blog" className={styles.linklist}>Blog</Link>
-          <Link to="/contact" className={styles.linklist}>Contact</Link>
           <Link to="/pages" className={styles.linklist}>Pages</Link>
+          <Link to="/blog" className={styles.linklist}>categories</Link>
         </div>
 
         <div className={styles.RegisterForm}>

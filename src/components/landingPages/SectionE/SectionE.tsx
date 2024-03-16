@@ -22,7 +22,7 @@ const SectionE: React.FC = () => {
        <div className={Styles.ProfileItems}>
          <div className={Styles.ProfileLists}>
             <h1 className={Styles.ProfileHeader}>What they say about us</h1>
-             <img src={Profile} alt="Picture Icon" className={Styles.profileImage}/>
+             <img src={Profile} alt="design Icon" className={Styles.profileImage}/>
              <div className={Styles.profileStar}>
                <img src={StarOne} alt="PStar Icon" />
                <img src={StarOne} alt="PStar Icon" />
