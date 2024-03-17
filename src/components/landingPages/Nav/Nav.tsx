@@ -24,13 +24,12 @@ const Nav: React.FC = () => {
       </div>
       <div className={`${styles.ListItems} ${isMenuOpen ? styles.ShowMenu : ''}`}>
         <div className={styles.LinkLists}>
+        <Link to="/blog" className={styles.linklist}>categories</Link>
           <Link to="/" className={styles.linklist}>Home</Link>
           <Link to="/shop" className={styles.linklist}>Shop</Link>
           <Link to="/about" className={styles.linklist}>About</Link>
           <Link to="/pages" className={styles.linklist}>Pages</Link>
-          <Link to="/blog" className={styles.linklist}>categories</Link>
         </div>
-
         <div className={styles.RegisterForm}>
           <div className={styles.NavForms}>
             <PersonIcon className={styles.NavIconColors} />
@@ -38,7 +37,6 @@ const Nav: React.FC = () => {
              /
             <Link to="/register" className={styles.linklistForm}>Register</Link>
           </div>
-
           <div className={styles.NavIcons}>
             <SearchIcon className={styles.NavIconColors} />
             <ShoppingCartIcon className={styles.NavIconColors} />
@@ -51,4 +49,3 @@ const Nav: React.FC = () => {
 };
 
 export default Nav;
-

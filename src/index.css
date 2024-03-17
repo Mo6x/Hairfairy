@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital@1&family=Montserrat:wght@700&family=Poppins:ital,wght@1,300&family=Sora:wght@100;200;300;500;600;700;800&display=swap');
 
+
 body {
  margin: 0;
+ padding: 10px;
+ flex-wrap: wrap;
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
    sans-serif;
@@ -16,4 +19,28 @@ font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Sora', sans-serif;
+}
+
+@media screen and (max-width: 768px){
+  * {
+    padding: 0;
+    margin: 0;
+    --border-width-top: 0;
+    --border-width-right: 0;
+    --border-width-bottom: 0;
+    --border-width-left: 0;
+    --border-width: 0;
+  }
+
+  body {
+    margin: 0;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   }
+   
 }

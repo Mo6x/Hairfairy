@@ -96,11 +96,18 @@
 }
 
 @media all and (max-width: 750px){
+   .SectionCContainer{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      flex-direction: column;
+   }
+
    .SectionCImageItems{
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      margin-top: 30px;
+      margin-top: 20px;
       justify-content: center;
       justify-content: space-between;
    }
