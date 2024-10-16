@@ -1,0 +1,134 @@
+.NavContainer{
+   height: 30px;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 30px;
+   margin-top: 6%;
+   align-content: center;
+   justify-content: space-between;
+   background-color: #FFFFFF;
+}
+
+.HOne{
+   width: 130px;
+   height: 70px;
+   font-size: 24px;
+   line-height: 32px;
+   font-weight: 700;
+   letter-spacing: 0.1px;
+   color: #252B42;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.MenuIconContainer {
+   display: none;
+}
+
+.ListItems{
+   width: 1185px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.LinkLists{
+   width: 361px;
+   height: 26px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 24px;
+   justify-content: space-between;
+}
+
+.linklist{
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   border-radius: 8px;
+   color: #737373;
+   text-decoration-line: #23A6F0;
+   /* background-color: hsl(46, 94%, 50%);
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.linklistForm{
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 24px;
+   text-align: center;
+   letter-spacing: 0.2px;
+   color: #23A6F0;
+   text-decoration-line: none;
+}
+
+.RegisterForm{
+   width: 324px;
+   height: 26px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 25px;
+   justify-content: space-between;
+}
+
+.NavForms{
+   width: 150px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.NavIcons{
+   width: 150px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.NavIconColors{
+   color: #23A6F0;
+}
+
+
+@media screen and (max-width: 768px) {
+   .NavContainer{
+      margin-top: auto;
+      position: fixed;
+      top: 0; 
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      justify-content: space-between;
+      background-color: #23856D;
+   }
+
+  .MenuIconContainer {
+   font-size: 20px;
+    display: block; 
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .HOne{
+   margin-top: 15px;
+  }
+
+  .ListItems {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 70px; 
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .ShowMenu {
+    display: flex !important;
+  }
+}
