@@ -48,6 +48,7 @@
    letter-spacing: 0.2px;
    border-radius: 8px;
    color: #737373;
+   cursor: pointer;
    text-decoration-line: #23A6F0;
    /* background-color: hsl(46, 94%, 50%);
    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */

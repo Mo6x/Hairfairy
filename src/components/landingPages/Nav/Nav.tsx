@@ -34,9 +34,9 @@ const Nav: React.FC = () => {
         </div>
         <div className={styles.RegisterForm}>
           <div className={styles.NavForms}>
-            <PersonIcon className={styles.NavIconColors} />
-            <Link to="/login" className={styles.linklistForm}>Login</Link> /
-            <Link to="/register" className={styles.linklistForm}>Register</Link>
+            {/* <PersonIcon className={styles.NavIconColors} />
+            <Link to="/login" className={styles.linklistForm}>Login</Link> / */}
+            <Link to="/register" className={styles.linklistForm}>Every</Link>
           </div>
           <div className={styles.NavIcons}>
             <SearchIcon className={styles.NavIconColors} />
