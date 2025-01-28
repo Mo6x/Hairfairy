@@ -24,22 +24,23 @@ const SectionB: React.FC = () => {
   return (
     <div className={Styles.SectionBContainer}>
        <div className={Styles.SectionBHeader}>
-         <h4 className={Styles.HeaderLine}>Featured Products</h4>
-         <h2 className={Styles.HeaderLine2}>BESTSELLER PRODUCTS</h2>
-         <p className={Styles.HeaderLineP}>Problems rying o resolve the conflict between</p>
+         <h2 className={Styles.HeaderLine2}>BESTSELLER FOODSTUFFS</h2>
+         <h4 className={Styles.HeaderLine}>Your healthy eating is our piority</h4>
        </div>
 
        <div className={Styles.ContainerCards}>
          <div className={Styles.CardsLists}>
            <img src={DesignOne} alt="Furniture One" className={Styles.bestDesign} />
+           
             <div className={Styles.CardsItems}>
-             <h3 className={Styles.styleH3}>Huile pour le corps</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <h3 className={Styles.styleH3}>Stock Fish</h3>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
                </div>
+               <p className={Styles.styleP}>Load more to purchase</p>
             </div>
+            
           </div>
           <div className={Styles.CardsLists}>
            <img src={ DesignTwo} alt="Furniture Two" className={Styles.bestDesign} />
@@ -141,7 +142,7 @@ const SectionB: React.FC = () => {
             </div>
           </div>
           <button className={Styles.SectionBButton} onClick={handleLoadMoreClick}>
-           LOAD MORE PRODUCTS
+           LOAD MORE FOODSTUFFS
           </button>
        </div>
     </div>

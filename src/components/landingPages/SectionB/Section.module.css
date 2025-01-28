@@ -7,6 +7,7 @@
 
 .SectionBHeader{
    display: flex;
+   margin-top: 50px;
    flex-wrap: wrap;
    align-items: center;
    flex-direction: column;
@@ -15,7 +16,7 @@
 
 .HeaderLine{
    font-size: 20px;
-   line-height: 30px;
+   line-height: 5px;
    text-align: center;
    font-weight: 400;
    cursor: pointer;
@@ -29,22 +30,10 @@
    font-size: 24px;
    font-weight: 700;
    text-align: center;
-   line-height: 32px;
+   line-height: 5px;
    cursor: pointer;
    letter-spacing: 0.1px;
    color:  #252B42;
-   font-family: 
-   Montserrat;
-}
-
-.HeaderLineP{
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 20px;
-   text-align: center;
-   cursor: pointer;
-   letter-spacing: 0.2px;
-   color: #737373;
    font-family: 
    Montserrat;
 }
@@ -85,23 +74,30 @@
    letter-spacing: 0.1px;
    color: #252B42;
    cursor: pointer;
-   line-height: 24px;
+   line-height: 5px;
 }
 
 .styleP{
+   width: 200px;
+   height: 50px;
+   border: 10px;
    font-size: 14px;
    font-weight: 700;
    text-align: center;
    letter-spacing: 0.2px;
    color: #737373;
-   line-height: 24px;
-  cursor: pointer;
+   line-height: 5px;
+    cursor: pointer;
+    border-radius: solid 10px rgb(0, 0, 255);
+    padding: 5px, 3px, 5px, 3px;
+    background-color: #23A6F0;
 }
 
 .CardsPayment{
    width: 108px;
    display: flex;
    flex-wrap: wrap;
+   /* margin-bottom: 30px; */
    padding: 5px, 3px, 5px, 3px;
    justify-content: space-between;
 }
