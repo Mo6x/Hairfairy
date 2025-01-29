@@ -31,22 +31,20 @@ const SectionB: React.FC = () => {
        <div className={Styles.ContainerCards}>
          <div className={Styles.CardsLists}>
            <img src={DesignOne} alt="Furniture One" className={Styles.bestDesign} />
-           
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>Stock Fish</h3>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
                </div>
-               <p className={Styles.styleP}>Load more to purchase</p>
             </div>
-            
           </div>
           <div className={Styles.CardsLists}>
            <img src={ DesignTwo} alt="Furniture Two" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
-             <h3 className={Styles.styleH3}>Cheveux Xpression</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <h3 className={Styles.styleH3}>Yam</h3>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -56,8 +54,8 @@ const SectionB: React.FC = () => {
           <div className={Styles.CardsLists}>
            <img src={DesignThree} alt="Furniture Three" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
-             <h3 className={Styles.styleH3}>Brands Design</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <h3 className={Styles.styleH3}>Onion</h3>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -68,7 +66,7 @@ const SectionB: React.FC = () => {
            <img src={DesignFour} alt="Furniture Four" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>gommage pour le corps</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -79,7 +77,7 @@ const SectionB: React.FC = () => {
            <img src={DesignFive} alt="Furniture Five" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>soin des pieds</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -90,7 +88,7 @@ const SectionB: React.FC = () => {
            <img src={DesignSix} alt="Furniture Six" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>offret de maquillage</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -101,7 +99,7 @@ const SectionB: React.FC = () => {
            <img src={DesignSeven} alt="Furniture Seven" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>Brands Design</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -112,7 +110,7 @@ const SectionB: React.FC = () => {
            <img src={DesignEight} alt="Furniture Eight" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>Brands Design</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -123,7 +121,7 @@ const SectionB: React.FC = () => {
            <img src={DesignNine} alt="Furniture Nine" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>Brands Design</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
@@ -134,7 +132,7 @@ const SectionB: React.FC = () => {
            <img src={DesignTen} alt="Furniture Ten" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
              <h3 className={Styles.styleH3}>Brands Design</h3>
-             <p className={Styles.styleP}>Décision d'achat</p>
+             <p className={Styles.styleP}>Load more to purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
                  <p className={Styles.PaymentColor2}>$6.48</p>
