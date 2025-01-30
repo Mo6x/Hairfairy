@@ -78,24 +78,23 @@
 }
 
 .styleP {
-   width: 200px;
+   width: 120px;
    height: 30px;
    font-size: 14px;
    font-weight: 700;
-   color: #ffffff;
+   color: #23856D;
    line-height: 30px;
    cursor: pointer;
-   border-radius: 10px;
+   border-radius: 5px;
    text-align: center;
    letter-spacing: 0.2px;
    transition: all 0.3s ease;
-   background-color: #23856D;
-   border: 2px solid #23856D;
+   border: 1px solid #23856D;
  }
  
  .styleP:hover {
-   background-color: #23856D;
    color: #ffffff;
+   background-color: #23856D;
  }
  
 
@@ -103,7 +102,7 @@
    width: 108px;
    display: flex;
    flex-wrap: wrap;
-   /* margin-bottom: 30px; */
+   margin-bottom: 20px;
    padding: 5px, 3px, 5px, 3px;
    justify-content: space-between;
 }
@@ -114,8 +113,8 @@
    text-align: center;
    color: #BDBDBD;
    letter-spacing: 0.1px;
-  line-height: 24px;
-  cursor: pointer;
+   line-height: 24px;
+   cursor: pointer;
 }
 
 .PaymentColor2{
@@ -124,8 +123,8 @@
    text-align: center;
    color: #23856D;
    letter-spacing: 0.1px;
-  line-height: 24px;
-  cursor: pointer;
+   line-height: 24px;
+   cursor: pointer;
 }
 
 .SectionBButton{
@@ -137,8 +136,8 @@
     margin-left: 390px;
     text-align: center;
     border-radius: 10px;
-    color: #23A6F0;
-    border: 1px solid #23A6F0;
+    color: #23856D;
+    border: 1px solid #23856D;
     background-color: #FFFFFF;
 }
 
