@@ -109,7 +109,7 @@ const SectionB: React.FC = () => {
           <div className={Styles.CardsLists}>
            <img src={DesignEight} alt="Furniture Eight" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
-             <h3 className={Styles.styleH3}>Brands Design</h3>
+             <h3 className={Styles.styleH3}>Garri</h3>
              <p className={Styles.styleP}>purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
@@ -120,7 +120,7 @@ const SectionB: React.FC = () => {
           <div className={Styles.CardsLists}>
            <img src={DesignNine} alt="Furniture Nine" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
-             <h3 className={Styles.styleH3}>Brands Design</h3>
+             <h3 className={Styles.styleH3}>Rice</h3>
              <p className={Styles.styleP}>purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
@@ -131,7 +131,7 @@ const SectionB: React.FC = () => {
           <div className={Styles.CardsLists}>
            <img src={DesignTen} alt="Furniture Ten" className={Styles.bestDesign} />
             <div className={Styles.CardsItems}>
-             <h3 className={Styles.styleH3}>Brands Design</h3>
+             <h3 className={Styles.styleH3}>Beans</h3>
              <p className={Styles.styleP}>purchase</p>
                <div className={Styles.CardsPayment}>
                  <p className={Styles.PaymentColor1}>$16.48</p>
