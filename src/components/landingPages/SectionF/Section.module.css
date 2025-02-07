@@ -1,26 +1,35 @@
-.SectionFContainer{
-   display: flex;
-   flex-wrap: wrap;
-  justify-content: center;
-}
-
 .BackgroundImages{
    z-index: 0;
    width: 100%;
    height: 650px;
 }
 
-.SectionFItems{
-   width: 571px;
-   z-index: 1;
+.SectionFContainer {
+   position: relative;
    display: flex;
-   flex-wrap: wrap;
+   justify-content: center;
    align-items: center;
-   margin-top: -460px;
-   margin-bottom: 40px;
-   flex-direction: column;
-}
-
+   height: 100vh;
+   overflow: hidden;
+ }
+ 
+ .BackgroundVideo {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   z-index: -1;
+ }
+ 
+ .SectionFItems {
+   position: relative;
+   text-align: center;
+   color: white;
+   z-index: 1;
+ }
+ 
 .SectionFH4{
    font-size: 14px;
    font-weight: 700;

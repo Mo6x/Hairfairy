@@ -2,7 +2,6 @@ import Navbar from "./components/landingPages/Navbar/navbar";
 import Nav from "./components/landingPages/Nav/Nav";
 import SectionA from "./components/landingPages/SectionA/SectionA";
 import SectionB from "./components/landingPages/SectionB/SectionB";
-import SectionC from "./components/landingPages/SectionC/SectionC";
 import SectionD from "./components/landingPages/SectionD/SectionD";
 import SectionE from "./components/landingPages/SectionE/SectionE";
 import SectionF from "./components/landingPages/SectionF/SectionF";
@@ -16,12 +15,11 @@ function App() {
     <div className="App">
       <Navbar />
       <Nav />
+      <SectionF />
       <SectionA />
       <SectionB />
-      <SectionC />
       <SectionD />
       <SectionE />
-      <SectionF />
       <Footer />
     </div>
   );
