@@ -15,8 +15,8 @@ const SectionD: React.FC = () => {
   return (
     <div className={Styles.SectionDContainer}>
        <div className={Styles.SectionDHeader}>
-           <p className={Styles.HeaderParagrph}>Practice Advice</p>
-           <h1 className={Styles.HeaderH1}>Featured Posts</h1>
+           <p className={Styles.HeaderParagrph}>ENTERPRISES</p>
+           <h1 className={Styles.HeaderH1}>Everyday Edibles Foodstuffs</h1>
        </div>
        <div className={Styles.SectionDCardList}>
          <div className={Styles.SectionCardsLists}>
@@ -27,10 +27,9 @@ const SectionD: React.FC = () => {
                 <p className={Styles.SectionDButton}>New</p>
             </div>
             <h1 className={Styles.ListButtonH1}>
-             Loudest à la Madison #1 (L'integral)
+            The Complete Edition #1(Bonga Fish)
             </h1>
-            <p className={Styles.ListButtonParagrh}>We focus on ergonomics and meeting 
-              you where you work. It's only a  keystroke away.
+            <p className={Styles.ListButtonParagrh}>We focus on freshness and bringing food straight to your table. It's only a bite away.
             </p>
             <div className={Styles.SectionDTimmer}>
                <div className={Styles.SectionDClock}>
@@ -55,10 +54,9 @@ const SectionD: React.FC = () => {
                 <p className={Styles.SectionDButton}>New</p>
             </div>
             <h1 className={Styles.ListButtonH1}>
-             Loudest à la Madison #1 (L'integral)
+              The Complete Edition  #1(River Dry Fish)
             </h1>
-            <p className={Styles.ListButtonParagrh}>We focus on ergonomics and meeting 
-              you where you work. It's only a  keystroke away.
+            <p className={Styles.ListButtonParagrh}>We focus on freshness and bringing food straight to your table. It's only a bite away.
             </p>
             <div className={Styles.SectionDTimmer}>
                <div className={Styles.SectionDClock}>
@@ -83,10 +81,9 @@ const SectionD: React.FC = () => {
                 <p className={Styles.SectionDButton}>New</p>
             </div>
             <h1 className={Styles.ListButtonH1}>
-             Loudest à la Madison #1 (L'integral)
+            The Complete Edition #1(Prawns Fish)
             </h1>
-            <p className={Styles.ListButtonParagrh}>We focus on ergonomics and meeting 
-              you where you work. It's only a  keystroke away.
+            <p className={Styles.ListButtonParagrh}>We focus on freshness and bringing food straight to your table. It's only a bite away.
             </p>
             <div className={Styles.SectionDTimmer}>
                <div className={Styles.SectionDClock}>

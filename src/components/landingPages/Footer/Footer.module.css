@@ -24,8 +24,8 @@
    font-weight: 700;
    line-height: 24px;
    cursor: pointer;
+   color: #FFFFFF;
    letter-spacing: 0.1px;
-    color: #252B42;
 }
 
 .FooterParent{
@@ -44,7 +44,7 @@
 
 .FooterListInput{
    width: 250px;
-   height: 50px;
+   height: 40px;
    display: flex;
    flex-wrap: wrap;
    flex-direction: column;
@@ -67,8 +67,8 @@
     text-align: center;
     border-radius: 5px;
     color: #FFFFFF;
-    border: 1px solid #23A6F0;;
-    background-color: #23A6F0;; 
+    border: 1px solid #23856D;
+    background-color: #23856D;
 }
 
 .Styles.FoooterLastDivs{
@@ -85,7 +85,7 @@
    font-weight: 700;
    line-height: 24px;
    cursor: pointer;
-   color: #737373;
+   color: #FFFFFF;
    letter-spacing: 0.2px;
 }
 

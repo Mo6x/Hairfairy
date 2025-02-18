@@ -4,6 +4,7 @@ import StarOne from "../../../Asserts/StarOne.png";
 import StarHalf from "../../../Asserts/StarHalf.png";
 import Styles from "./Section.module.css";
 
+
 const SectionE: React.FC = () => {
   const [formData, setFormData] = useState({
     firstName: "",
@@ -42,7 +43,7 @@ const SectionE: React.FC = () => {
           </p>
           <div className={Styles.ProfileDetails}>
             <h4 className={Styles.ProfileName}>Regina Miles</h4>
-            <h4 className={Styles.ProfileOwner}>Designer</h4>
+            <h4 className={Styles.ProfileOwner}>Custmer</h4>
           </div>
         </div>
 
@@ -94,3 +95,34 @@ const SectionE: React.FC = () => {
 };
 
 export default SectionE;
+
+
+
+
+
+
+
+
+
+
+
+
+// function sortCardRanks(cards) {
+//   const rankOrder = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'King', 'Ace'];
+  
+//   return cards
+//     .sort((a, b) => rankOrder.indexOf(a.toString()) - rankOrder.indexOf(b.toString()))
+//     .map(card => isNaN(card) ? card : parseInt(card, 10));
+// }
+
+// const cards = ['Jack', 8, 2, 2, 6, 'King', 5, 3, 'Queen', 'King', 'Queen'];
+// console.log(sortCardRanks(cards));
+
+
+
+
+// I NEED YOU TO PROVIDE THE CODE TO SOVLE THIS AND PASS TEST CASES VERY SHORT IN JAVASCRIPT 
+
+// Write a function that sorts an array card ranks in ascending order based on standard playing card ranks. (from lowest to highest)
+// cards = ['Jack', 8, 2, 2, 6, 'King', 5, 3, 'Queen', King',
+// 'Queen'];
